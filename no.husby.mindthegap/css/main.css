@@ -1,0 +1,44 @@
+Label {
+  font: 10px;
+  color: green;
+}
+
+Composite Label {
+  color: black;
+}
+
+Text {
+  font: 10px;
+    color: black;
+}
+
+/* Identifies only those SWT Text elements 
+   appearing within a Composite */
+
+Composite Text {
+  background-color: #DEDEDE;  
+  color: green;
+  font: Verdana 10px;
+}
+
+SashForm {
+	font: Verdana 10px;
+}
+
+
+.MTrimBar {
+  color: white;
+}
+
+Shell {
+font: Verdana 10px;
+}
+
+CTabItem, ToolBar, Button, CBanner, CoolBar {
+  font-size: 10;
+}
+
+TableViewer {
+  background-color: #ff0000;
+}
+ 

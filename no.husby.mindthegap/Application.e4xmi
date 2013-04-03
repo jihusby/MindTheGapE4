@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_3AmJsJb2EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_7sJS0Jb2EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.trimmedwindow.mindthegap" label="Mind The Gap" x="100" y="100" width="800" height="600">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_nMIRwJb-EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_oP5b4Jb-EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.perspective" label="Topics">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_9GLHMJb-EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.partsashcontainer.0" containerData="" selectedElement="__uHZ0Jb-EeKXd_FhEXOPfA" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="__uHZ0Jb-EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.partstack.left" containerData="40">
+            <children xsi:type="basic:Part" xmi:id="_DpylMJb_EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.part.topicoverview" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.parts.TopicOverviewPart" label="Topics"/>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_B6wxkJdBEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.partsashcontainer.1" containerData="60" selectedElement="_Bpao4Jb_EeKXd_FhEXOPfA">
+            <children xsi:type="basic:PartStack" xmi:id="_Bpao4Jb_EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.partstack.right.top" containerData="60">
+              <children xsi:type="basic:Part" xmi:id="_I7r8oJb_EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.part.topicdetails" containerData="" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.parts.TopicDetailsPart" label="Topic details"/>
+              <children xsi:type="basic:Part" xmi:id="_KkGr8Jb_EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.part.playground" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.parts.PlaygroundPart" label="Playground"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_lS5j0JdBEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.partstack.right.bottom" containerData="40">
+              <children xsi:type="basic:Part" xmi:id="_qw0lEJdBEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.part.0" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.TestHandler" label="GAP Matrix"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_ycukAJdFEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.menu.main">
+      <children xsi:type="menu:Menu" xmi:id="_-x80QJdFEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_jttRkJeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handledmenuitem.new" label="New" command="_FVz7gJeWEeKmT6qfe9a5rg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_exXTYJeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handledmenuitem.save" label="Save" command="_AtuWEJeWEeKmT6qfe9a5rg"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_J0_xsJeYEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_KnYQ4JeYEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handledmenuitem.exit" label="Exit" command="_Tp3wQJdEEeKmT6qfe9a5rg"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_ZUxu4JeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.menu.edit" label="Edit">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_xooUUJeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handledmenuitem.remove" label="Remove" command="_I5KGcJeWEeKmT6qfe9a5rg"/>
+      </children>
+    </mainMenu>
+  </children>
+  <handlers xmi:id="_AaUccJeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handler.save" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.SaveAllHandler" command="_AtuWEJeWEeKmT6qfe9a5rg"/>
+  <handlers xmi:id="_EEwt4JeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handler.exit" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.ExitHandler" command="_Tp3wQJdEEeKmT6qfe9a5rg"/>
+  <handlers xmi:id="_HEi4wJeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handler.new" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.NewTopicHandler" command="_FVz7gJeWEeKmT6qfe9a5rg"/>
+  <handlers xmi:id="_LFm6cJeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handler.remove" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.RemoveTopicHandler" command="_I5KGcJeWEeKmT6qfe9a5rg"/>
+  <handlers xmi:id="_PESWgJeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handler.test" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.TestHandler" command="_LrQaoJeWEeKmT6qfe9a5rg"/>
+  <handlers xmi:id="_E2ifgJsNEeKmY83Vf2MWWg" elementId="no.husby.mindthegap.handler.topicdetail" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.TopicDetailHandler" command="_HKEoYJsNEeKmY83Vf2MWWg"/>
+  <bindingTables xmi:id="_XMfg0JekEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.bindingtable.0" bindingContext="_6FSEoJekEeKmT6qfe9a5rg">
+    <bindings xmi:id="_Y7_vkJekEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.keybinding.save" keySequence="M1+S" command="_AtuWEJeWEeKmT6qfe9a5rg"/>
+    <bindings xmi:id="_qEdFUJekEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.keybinding.exit" keySequence="M1+Q" command="_Tp3wQJdEEeKmT6qfe9a5rg"/>
+    <bindings xmi:id="_s0XoMJekEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.keybinding.new" keySequence="M1+N" command="_FVz7gJeWEeKmT6qfe9a5rg"/>
+  </bindingTables>
+  <rootContext xmi:id="_6FSEoJekEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.bindingcontext.0" name="Context"/>
+  <commands xmi:id="_Tp3wQJdEEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.command.exit" commandName="Exit" description=""/>
+  <commands xmi:id="_AtuWEJeWEeKmT6qfe9a5rg" elementId="org.eclipse.ui.file.saveAll" commandName="Save"/>
+  <commands xmi:id="_FVz7gJeWEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.command.new" commandName="New Todo"/>
+  <commands xmi:id="_I5KGcJeWEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.remove" commandName="Remove Todo"/>
+  <commands xmi:id="_LrQaoJeWEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.test" commandName="For testing"/>
+  <commands xmi:id="_HKEoYJsNEeKmY83Vf2MWWg" elementId="no.husby.mindthegap.command.topicdetail" commandName="Topic Detail"/>
+  <addons xmi:id="_3AmJsZb2EeKXd_FhEXOPfA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_3AmJspb2EeKXd_FhEXOPfA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_3AmJs5b2EeKXd_FhEXOPfA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_3AmJtJb2EeKXd_FhEXOPfA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_3AmJtZb2EeKXd_FhEXOPfA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_3AmJtpb2EeKXd_FhEXOPfA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
