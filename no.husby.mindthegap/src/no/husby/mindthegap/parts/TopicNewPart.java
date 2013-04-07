@@ -22,7 +22,6 @@ public class TopicNewPart {
 
 	@Focus
 	public void setFocus() {
-		title.setFocus();
 		registrations.setFocus();
 	}
 }

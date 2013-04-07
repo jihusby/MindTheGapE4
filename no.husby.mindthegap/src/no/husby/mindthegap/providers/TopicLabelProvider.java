@@ -13,33 +13,10 @@ import org.eclipse.swt.graphics.Image;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.FrameworkUtil;
 
-//public class TopicLabelProvider extends StyledCellLabelProvider {
-//
-//	@Override
-//	public void update(ViewerCell cell) {
-//		Object element = cell.getElement();
-//		StyledString text = new StyledString();
-//
-//		if (element instanceof Category) {
-//			Category category = (Category) element;
-//			text.append(category.getTitle());
-//			cell.setImage(PlatformUI.getWorkbench().getSharedImages().getImage(ISharedImages.IMG_OBJ_FOLDER));
-//			text.append(" (" + category.getTopics().size() + ") ", StyledString.COUNTER_STYLER);
-//		} else {
-//			Topic topic = (Topic) element;
-//			text.append(topic.getTitle());
-//			cell.setImage(PlatformUI.getWorkbench().getSharedImages().getImage(ISharedImages.IMG_OBJ_FILE));
-//		}
-//		cell.setText(text.toString());
-//		cell.setStyleRanges(text.getStyleRanges());
-//		super.update(cell);
-//	}
-//}
-
 public class TopicLabelProvider extends LabelProvider {
 
-	private static final Image FOLDER = getImage("folder.gif");
-	private static final Image FILE = getImage("file.gif");
+	private static final Image FOLDER = getImage("folder.png");
+	private static final Image FILE = getImage("file.png");
 
 	@Override
 	public String getText(Object element) {

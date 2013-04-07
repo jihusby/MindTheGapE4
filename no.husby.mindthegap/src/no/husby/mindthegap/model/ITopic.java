@@ -4,4 +4,6 @@ public interface ITopic {
 
 	public String getTitle();
 
+	public int getRecords();
+
 }

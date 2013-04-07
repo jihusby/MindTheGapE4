@@ -9,7 +9,6 @@
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_B6wxkJdBEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.partsashcontainer.1" containerData="60" selectedElement="_Bpao4Jb_EeKXd_FhEXOPfA">
             <children xsi:type="basic:PartStack" xmi:id="_Bpao4Jb_EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.partstack.right.top" containerData="60">
-              <children xsi:type="basic:Part" xmi:id="_I7r8oJb_EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.part.topicdetails" containerData="" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.parts.TopicDetailsPart" label="Topic details"/>
               <children xsi:type="basic:Part" xmi:id="_KkGr8Jb_EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.part.playground" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.parts.PlaygroundPart" label="Playground"/>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_lS5j0JdBEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.partstack.right.bottom" containerData="40">
@@ -36,7 +35,7 @@
   <handlers xmi:id="_HEi4wJeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handler.new" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.NewTopicHandler" command="_FVz7gJeWEeKmT6qfe9a5rg"/>
   <handlers xmi:id="_LFm6cJeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handler.remove" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.RemoveTopicHandler" command="_I5KGcJeWEeKmT6qfe9a5rg"/>
   <handlers xmi:id="_PESWgJeXEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.handler.test" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.TestHandler" command="_LrQaoJeWEeKmT6qfe9a5rg"/>
-  <handlers xmi:id="_E2ifgJsNEeKmY83Vf2MWWg" elementId="no.husby.mindthegap.handler.topicdetail" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.TopicDetailHandler" command="_HKEoYJsNEeKmY83Vf2MWWg"/>
+  <handlers xmi:id="_E2ifgJsNEeKmY83Vf2MWWg" elementId="no.husby.mindthegap.handler.openTopic" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.handlers.OpenTopicHandler" command="_HKEoYJsNEeKmY83Vf2MWWg"/>
   <bindingTables xmi:id="_XMfg0JekEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.bindingtable.0" bindingContext="_6FSEoJekEeKmT6qfe9a5rg">
     <bindings xmi:id="_Y7_vkJekEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.keybinding.save" keySequence="M1+S" command="_AtuWEJeWEeKmT6qfe9a5rg"/>
     <bindings xmi:id="_qEdFUJekEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.keybinding.exit" keySequence="M1+Q" command="_Tp3wQJdEEeKmT6qfe9a5rg"/>
@@ -48,7 +47,7 @@
   <commands xmi:id="_FVz7gJeWEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.command.new" commandName="New Todo"/>
   <commands xmi:id="_I5KGcJeWEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.remove" commandName="Remove Todo"/>
   <commands xmi:id="_LrQaoJeWEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.test" commandName="For testing"/>
-  <commands xmi:id="_HKEoYJsNEeKmY83Vf2MWWg" elementId="no.husby.mindthegap.command.topicdetail" commandName="Topic Detail"/>
+  <commands xmi:id="_HKEoYJsNEeKmY83Vf2MWWg" elementId="no.husby.mindthegap.openTopic.command" commandName="openTopicCommand"/>
   <addons xmi:id="_3AmJsZb2EeKXd_FhEXOPfA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_3AmJspb2EeKXd_FhEXOPfA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_3AmJs5b2EeKXd_FhEXOPfA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

@@ -3,10 +3,15 @@ package no.husby.mindthegap.model;
 public class Topic implements ITopic {
 
 	private String title;
+	private int records;
 
 	public Topic(String title) {
-		super();
 		this.setTitle(title);
+	}
+
+	public Topic(String title, int records) {
+		this.title = title;
+		this.records = records;
 	}
 
 	private void setTitle(String title) {
@@ -16,6 +21,11 @@ public class Topic implements ITopic {
 	@Override
 	public String getTitle() {
 		return title;
+	}
+
+	@Override
+	public int getRecords() {
+		return records;
 	}
 
 }
