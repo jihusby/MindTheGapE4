@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_3AmJsJb2EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.application">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_7sJS0Jb2EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.trimmedwindow.mindthegap" label="Mind The Gap" x="100" y="100" width="800" height="600">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_7sJS0Jb2EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.trimmedwindow.mindthegap" label="Mind The Gap" x="100" y="100" width="1400" height="900">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_nMIRwJb-EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.perspectivestack.0">
       <children xsi:type="advanced:Perspective" xmi:id="_oP5b4Jb-EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.perspective" label="Topics">
         <children xsi:type="basic:PartSashContainer" xmi:id="_9GLHMJb-EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.partsashcontainer.0" containerData="" selectedElement="__uHZ0Jb-EeKXd_FhEXOPfA" horizontal="true">
-          <children xsi:type="basic:PartStack" xmi:id="__uHZ0Jb-EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.partstack.left" containerData="40">
+          <children xsi:type="basic:PartStack" xmi:id="__uHZ0Jb-EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.partstack.left" containerData="30">
             <children xsi:type="basic:Part" xmi:id="_DpylMJb_EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.part.topicoverview" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.parts.TopicOverviewPart" label="Topics"/>
           </children>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_B6wxkJdBEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.partsashcontainer.1" containerData="60" selectedElement="_Bpao4Jb_EeKXd_FhEXOPfA">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_B6wxkJdBEeKmT6qfe9a5rg" elementId="no.husby.mindthegap.partsashcontainer.1" containerData="70" selectedElement="_Bpao4Jb_EeKXd_FhEXOPfA">
             <children xsi:type="basic:PartStack" xmi:id="_Bpao4Jb_EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.partstack.right.top" containerData="60">
               <children xsi:type="basic:Part" xmi:id="_KkGr8Jb_EeKXd_FhEXOPfA" elementId="no.husby.mindthegap.part.playground" contributionURI="bundleclass://no.husby.mindthegap/no.husby.mindthegap.parts.PlaygroundPart" label="Playground"/>
             </children>
